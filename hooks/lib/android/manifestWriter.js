@@ -27,7 +27,7 @@ function writePreferences(cordovaContext, pluginPreferences) {
     'src', 
     'main', 
     'AndroidManifest.xml');
-  console.log(pathToManifest.toString());
+  console.log('Path: ', pathToManifest.toString());
   var manifestSource = xmlHelper.readXmlAsJson(pathToManifest);
   var cleanManifest;
   var updatedManifest;
